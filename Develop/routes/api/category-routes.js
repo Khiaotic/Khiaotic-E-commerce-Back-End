@@ -7,6 +7,7 @@ router.get('/', async (req, res) => {
   // find all categories
   // be sure to include its associated Products
   try {
+    //.findAll retrieve all categories from table
     const categoryData = await Category.findAll({
       include: [{ model: Product}]
     })
@@ -20,6 +21,7 @@ router.get('/:id', async  (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
   try{
+    //.findByPk-obtain only a SINGLE entry from the table
     const categoryData = await Category.findByPk(req.params.id, {include: [{ model: Product}]});
   if(!categoryData){
     res.status(404).json({ message: 'A category with that ID does not exist'});
