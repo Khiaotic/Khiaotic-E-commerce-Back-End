@@ -1,8 +1,8 @@
 // import models
-const Product = require('../Develop/models/Product');
+const Product = require('./Product');
 const Category = require('./Category');
-const Tag = require('../Develop/models/Tag');
-const ProductTag = require('../Develop/models/ProductTag');
+const Tag = require('./Tag');
+const ProductTag = require('./ProductTag');
 
 // Products belongsTo Category
 Product.belongsTo(Category, {
