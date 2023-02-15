@@ -57,7 +57,7 @@ router.put('/:id', async (req, res) => {
       res.status(404).json({message: 'No tag'});
       return;
     }
-    res.status(200).json('category had been updated');
+    res.status(200).json('tag had been updated');
   }catch (err) {
     res.status(500).json(err)
   }
