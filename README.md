@@ -14,7 +14,7 @@ Link to Demo: <br>
 
 
 ## User Story
-AS A developer I WANT a note taker SO THAT I can quickly create notes for a new project
+AS A developer I WANT to be able to organize and label produce in  their needed categories and item placement
 
 ## 📋Table of Contents
 -[License](#🪪License) <br />
