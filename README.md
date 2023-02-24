@@ -8,9 +8,10 @@ This application is covered by the MIT
 
 👀Preview and Demo
 Preview image: 
+![ecom](https://user-images.githubusercontent.com/112679225/221086264-5e071f3f-92f2-44ff-9968-7b5c212a9bba.jpg)
 
 
-Link to Demo: <br>
+Link to Demo: https://clipchamp.com/watch/siFe2UwLE73 <br>
 
 
 ## User Story
