@@ -27,10 +27,12 @@ AS A developer I WANT to be able to organize and label produce in  their needed 
 -[Support](#🪙Support) <br />
 
 # 💢📃Installation <br>
-To clone and use this application, you'll need Git and Node.js (npm equipped) installed on your computer
+To clone and use this application, you'll need Git and Node.js (npm equipped), Insomnia, and MYSQL installed on your computer
 npm i
 
 # 🧰Usage<br>
+login to mysql
+node run seed
 node server.js
 
 
